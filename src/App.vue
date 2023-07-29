@@ -36,13 +36,13 @@
             <p class="text-center">{{ modalContent.id }}</p>
           </div>
         </div>
-        <div class="p-10 bg-slate100">
+        <div class="p-10 bg-slate-100">
           <!-- Right half content -->
           <h1 class="text-4xl font-bold">Stats</h1>
           <table class="border-separate border-spacing-2 rounded">
             <tbody>
               <tr v-for="(stat, index) in modalContent.stats" :key="index"
-                :class="index % 2 === 0 ? 'bg-slate100' : 'bg-white'" class="border border-transparent border-8">
+                :class="index % 2 === 0 ? 'bg-slate-100' : 'bg-white'" class="border border-transparent border-8">
                 <td class="font-bold p-2 w-80">{{ this.statName[stat.name] }}</td>
                 <td class="w-10 border border-transparent border-8">{{ stat.value }}</td>
               </tr>
