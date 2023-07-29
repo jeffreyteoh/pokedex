@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 255 115 179;
+    --color-secondary: 111 114 185;
+    --filled-heart: #EF4444;
+    --btn-primary: #FBBF24;
+    --btn-secondary: #D97706;
+    --background: #FDE68A;
+    --card-background: #fff;
+    --empty--field: #F1F5F9;
+    --text: #0F172A; 
+    --secondary-text: #94a3b8;
+
+    background: var(--background);
+    color: var(--text);
+    font-family: 'Lato', sans-serif;
+    user-select: none;
+  }
+
+  body {
+    padding: 2em;
+  }
+
+  p {
+    color: var(--secondary-text);
+  }
+}
+
